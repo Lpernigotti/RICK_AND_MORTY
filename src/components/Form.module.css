@@ -1,0 +1,70 @@
+.contenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      
+}
+.box {
+    width: 400px;
+    padding: 20px;
+    background-color: #333333; 
+    border: 5px solid #00ff00; 
+    border-radius: 10px;
+    color:rgb(248, 248, 204); 
+    font-family: 'Monday Groovy', cursive; 
+    font-size: 20px;
+    -webkit-text-stroke: 1px black;
+    
+  }
+  .label {
+    display: block;
+    margin-bottom: 20px;
+    
+  }
+
+  .input{
+    width: 95%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  align-self: center;
+  }
+
+  .botonSubmit{
+    width: 55px;
+  padding: 10px;
+  background-color: #00ff00; /* Verde fluor */
+  color:black; 
+  -webkit-text-stroke: 0.5px rgb(248, 248, 204) ;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Monday Groovy', cursive; /* Tu tipografía descargada */
+  font-size: 1.3rem;
+  cursor: pointer;
+  height: fit-content;
+  align-items: center;
+  transition: transform 0.3s ease;
+  margin-top: 10px;
+  }
+  .botonSubmit:hover{
+    transform: scale(1.1);
+    background-color: rgba(135, 0, 162, 0.881);
+  }
+
+  .botonContainer{
+    text-align: center;
+  }
+  
+  .imageContainer {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .image{
+    width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  opacity: .9;
+  }

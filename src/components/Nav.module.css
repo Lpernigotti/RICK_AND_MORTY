@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Monday Groovy";
+    src: local("Monday Groovy") url('../fonts/Monday\ Groovy.ttf');
+  }
+  .about{
+    font-family: "Monday Groovy", sans-serif;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: rgb(192, 63, 192);
+    background-color: rgba(135, 0, 162, 0.881);
+    color: white;
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    height: fit-content;
+    align-self: center;
+}
+.about:hover{
+    transform: scale(1.1);
+  background-color: yellowgreen;
+}
+.nav{
+    background-color: rgb(45, 45, 45);
+    opacity: .8;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.navLink {
+    font-family: "Monday Groovy", sans-serif;
+    font-size: 1.3rem;
+    color: rgb(248, 248, 204) ;
+    -webkit-text-stroke: 0.5px black;
+    text-decoration:none;
+    letter-spacing: 2px;
+}
+
+.home{
+  font-family: "Monday Groovy", sans-serif;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: rgb(192, 63, 192);
+    background-color: rgba(135, 0, 162, 0.881);
+    color: white;
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    height: fit-content;
+    align-self: center;
+}
+
+.home:hover{
+  transform: scale(1.1);
+  background-color: yellowgreen;
+}
