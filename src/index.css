@@ -5,14 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./space-green-glowing-background-free-vector.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-#root{
-  background-image: url('./space-green-glowing-background-free-vector.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
 }

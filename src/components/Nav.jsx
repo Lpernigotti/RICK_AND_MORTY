@@ -11,11 +11,11 @@ const Nav = ({onSearch}) => {
      <button className={style.home}>
       <NavLink to = '/home' className={style.navLink}>Home</NavLink>
       </button>   
+      <button className={style.favorites}>
+        <NavLink to= '/favorites' className={style.navLink}>Favorites</NavLink>
+      </button>
       <button  className={style.home}>
         <NavLink to= '/ ' className={style.navLink}>LOGOUT</NavLink>
-      </button>
-      <button>
-        <NavLink to= '/favorites'>Favorites</NavLink>
       </button>
        </nav>
 

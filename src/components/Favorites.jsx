@@ -28,6 +28,7 @@ const Favorites = ({myFavorites}) => {
             <option value="Female">Female</option>
             <option value="Genderless">Genderless</option>
             <option value="unknown">unknown</option>
+            <option value="AllCharacters"></option>
         </select>
         {
             myFavorites?.map(fav => {
